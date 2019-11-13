@@ -18,5 +18,6 @@ def take_a_number(deli, person)
     deli << person 
   end  
   deli.each.with_index do |person, i|
-  puts "Welcome, #{person}. You are number #{i} in line."
+    puts "Welcome, #{person}. You are number #{i} in line."
+  end
 end 
