@@ -7,4 +7,5 @@ def line(deli)
   else line is > 0 
     displays current line 
   binding.pry 
+  end 
 end 
