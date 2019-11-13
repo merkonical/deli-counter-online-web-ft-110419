@@ -17,7 +17,7 @@ def take_a_number(deli, person)
   if deli.empty?
     deli << person
   else 
-    deli 
+    deli.shift(person)
     puts "Welcome, #{person}. You are number #{deli.length} in line."
 end
 
