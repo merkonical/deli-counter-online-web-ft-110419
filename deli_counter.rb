@@ -14,6 +14,10 @@ def line(deli)
 end 
 
 def take_a_number(deli, person)
-  deli << person
-  puts "Welcome, #{person}. You are number #{deli.length} in line."
-end 
+  if deli.empty?
+    deli << person
+  else 
+    deli 
+    puts "Welcome, #{person}. You are number #{deli.length} in line."
+end
+
