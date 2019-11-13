@@ -17,7 +17,7 @@ def take_a_number(deli, person)
   if deli.empty?
     deli << person 
   else 
-    deli << person
+    deli.shift
   end  
   deli.each.with_index(1) do |person, i|
     puts "Welcome, #{person}. You are number #{i} in line."
