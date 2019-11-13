@@ -8,6 +8,7 @@ def line(deli)
     line_number = "The line is currently:"
     deli.each.with_index do |i, c|
       line_number << " #{i}. #{c}"
-  end 
-  puts line_number 
+    end 
+    puts line_number
+  end  
 end 
