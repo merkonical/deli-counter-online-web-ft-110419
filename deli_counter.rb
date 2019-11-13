@@ -10,6 +10,9 @@ def line(deli)
       line_number << " #{i}. #{c}"
     end 
     puts line_number
-    binding.pry
   end  
+end 
+
+def take_a_number
+  
 end 
