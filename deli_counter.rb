@@ -14,11 +14,5 @@ def line(deli)
 end 
 
 def take_a_number(deli, person)
-  if deli.empty?
-    deli << person 
-  else 
-    deli.each.with_index(1) do |person, i|
-      puts "Welcome, #{person}. You are number #{i} in line."
-    end
-  end  
+  
 end 
