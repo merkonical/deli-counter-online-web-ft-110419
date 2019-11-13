@@ -4,7 +4,8 @@ require "pry"
 def line(deli) 
   if deli.empty?
     puts "The line is currently empty."
-  else deli > 0 
+  else 
+    
     displays current place in line 
   binding.pry 
   end 
