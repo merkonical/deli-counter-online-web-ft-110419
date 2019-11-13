@@ -6,6 +6,7 @@ def line(deli)
     puts "The line is currently empty."
   else line is > 0 
     displays current line 
-      binding.pry 
+
+binding.pry 
   end 
 end 
