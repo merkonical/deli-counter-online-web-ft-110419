@@ -2,9 +2,9 @@
 require "pry"
 
 def line(deli) 
-  if line is == 0 
+  if deli == 0 
     puts "The line is currently empty."
-  else line is > 0 
+  else deli > 0 
     displays current line 
   binding.pry 
   end 
