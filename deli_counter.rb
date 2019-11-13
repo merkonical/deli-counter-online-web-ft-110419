@@ -5,7 +5,7 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   else 
-    deli.each.with_index {|i|
-      puts "line is currently at #{index}"
+    deli.each.with_index {|i, c|
+      puts "line is currently at #{i}"
   end 
 end 
