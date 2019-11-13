@@ -15,7 +15,7 @@ end
 
 def take_a_number(deli, person)
   if deli.empty?
-    deli.shift(person)
+    deli << person 
   else 
     deli << person
   end  
