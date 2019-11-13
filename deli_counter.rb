@@ -7,6 +7,6 @@ def line(deli)
   else 
     line_number = "The line is currently:"
     deli.each.with_index(1) do |i, c|
-      puts "line is currently: #{i}. #{c}"
+       #{i}. #{c}"
   end 
 end 
