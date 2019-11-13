@@ -5,7 +5,7 @@ def line(deli)
   if deli == 0 
     puts "The line is currently empty."
   else deli > 0 
-    displays current line 
+    displays current place in line 
   binding.pry 
   end 
 end 
