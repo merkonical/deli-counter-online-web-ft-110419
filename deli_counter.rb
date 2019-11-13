@@ -2,7 +2,7 @@
 require "pry"
 
 def line(deli) 
-  if deli == 0 
+  if deli.empty?
     puts "The line is currently empty."
   else deli > 0 
     displays current place in line 
